@@ -1,0 +1,44 @@
+= provide(:title, "Eyedealist | Exhibition")
+
+%header.codrops-header
+	
+	%h1= @gallery.name
+
+	- if user_signed_in?
+		
+		= link_to 'Back', galleries_path, :class => 'btn btn-mini'
+		
+		= link_to 'Edit', edit_gallery_path(@gallery), :class => 'btn btn-mini'
+		
+		= link_to 'Delete gallery', gallery_path(@gallery), :method => 'delete', :confirm => 'Are you sure?', :class => 'btn btn-mini'
+
+	.about-text.text-center
+		%br
+		
+		= @gallery.description
+
+		%br
+		%hr
+		%br
+
+- unless @pictures.empty?
+	
+	#pins.transitions-enabled
+		
+		- @pictures.each do |pic|
+			
+			.box.panel.panel-default
+				
+				= link_to (image_tag pic.image), pic.image.url, "data-lightbox" => "#{@gallery.id}", "data-title" => "#{@gallery.name}"
+				
+				- if user_signed_in?
+					
+					= link_to "Delete Picture", pic, :data => { :confirm => "Are you sure?" }, :method => :delete
+
+.related.social-list
+	= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-facebook
+	= link_to "https://twitter.com/eyedealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-twitter
+	= link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-instagram

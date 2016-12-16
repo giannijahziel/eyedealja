@@ -1,0 +1,20 @@
+= provide(:title, "Eyedealist | Edit Wallpaper")
+
+#edit_page.col-md-8.col-md-offset-2
+	.row
+		.panel.panel-default
+			.panel-heading
+				%h1 Editing Wallpaper
+			.panel-body
+				.current_image
+					%strong.center Current Wallpaper:
+					= image_tag @wallpaper.image.url(:thumb)
+				= render 'form'
+
+.related.social-list
+	= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-facebook
+	= link_to "https://twitter.com/eyedealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-twitter
+	= link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-instagram

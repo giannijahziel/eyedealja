@@ -1,0 +1,39 @@
+= provide(:title, "Eyedealist | Wallpapers")
+
+%header.codrops-header
+     %h2 Wallpapers
+
+- if @wallpapers.count > 0
+
+     #pins.transitions-enabled
+
+          - @wallpapers.each do |wallpaper|
+               .col-md-4
+                    %h3= wallpaper.name
+                    
+                    = image_tag wallpaper.image.url(:thumb)
+                    
+                    - if wallpaper.enabled
+                         %p
+                              %strong Status: 
+                              ON
+                    - else
+                         %p
+                              %strong Status: 
+                              OFF
+
+                    .btn-group
+                         = link_to "Edit", edit_wallpaper_path(wallpaper), class: "btn btn-primary"
+                         = link_to "Delete", wallpaper_path(wallpaper), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"
+- else
+     #pins.transitions-enabled
+          .related No wallpapers uploaded as yet.
+
+
+.related.social-list
+     = link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
+          %span.menu-icon.fa.fa-fw.fa-facebook
+     = link_to "https://twitter.com/eyedealer", target: '_blank' do
+          %span.menu-icon.fa.fa-fw.fa-twitter
+     = link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
+          %span.menu-icon.fa.fa-fw.fa-instagram

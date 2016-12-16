@@ -1,0 +1,24 @@
+= simple_form_for @wallpaper, html: { multipart: true } do |f|
+	- if @wallpaper.errors.any?
+		#errors
+			%h2
+				= pluralize(@wallpaper.errors.count, "error")
+				prevented this Wallpaper from saving
+			%ul
+				- @wallpaper.errors.full_messages.each do |msg|
+					%li= msg
+
+	.form-group
+		= f.input :name, input_html: { class: 'form-control' }
+
+	.form-group
+		= f.label "Choose the image you want to upload", :class => 'control-label'
+		= f.file_field :image, label: "Choose the image you want to upload", input_html: { class: 'form-control' }
+
+	.form-group
+		= f.label "Set as wallpaper?", :class => 'control-label'
+		= f.check_box :enabled, label: 'Set as Wallpaper?', input_html: { class: 'form-control' }
+
+	.form-group.btn-group
+		= f.submit :submit, class: "btn btn-primary"
+		= link_to "Back", :back, class: "btn btn-default"

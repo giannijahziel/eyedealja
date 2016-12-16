@@ -1,0 +1,17 @@
+= provide(:title, "Eyedealist | Video")
+
+#pin_show.row
+	.col-md-8.col-md-offset-2
+		.panel.panel-default
+			.panel-heading
+				%iframe{:allowscriptaccess => "always", :allowFullScreen => "true", :frameborder => "0", :height => "430", :src => "http://www.youtube.com/embed/"+@video.link, :title => "YouTube video player", :width => "640"}
+			.panel-body
+				%h1= @video.title
+
+			- if user_signed_in?
+				.panel-footer
+					.row
+						.col-md-12
+							.btn-group
+								= link_to "Edit", edit_video_path, class: "btn btn-default"
+								= link_to "Delete", video_path, method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"

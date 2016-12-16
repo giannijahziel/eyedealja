@@ -1,0 +1,17 @@
+= provide(:title, "Eyedealist | Press Edit")
+
+#edit_page.col-md-8.col-md-offset-2
+	.row
+		.panel.panel-default
+			.panel-heading
+				%h1= "Edit: "+@link.title
+			.panel-body
+				= render 'form'
+
+.related.social-list
+	= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-facebook
+	= link_to "https://twitter.com/eyedealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-twitter
+	= link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-instagram

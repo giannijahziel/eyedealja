@@ -1,0 +1,17 @@
+= simple_form_for @wallpapers, html: { multipart: true } do |f|
+  - if @wallpaper.errors.any?
+    #errors
+      %h2
+        = pluralize(@wallpapers.errors.count, "error")
+        prevented this Wallpaper from saving
+      %ul
+        - @wallpapers.errors.full_messages.each do |msg|
+          %li= msg
+
+  
+  .form-group
+  	= f.name
+  	= f.image
+    = f.input :enabled, as: :radio_buttons, input_html: { class: 'form-control' }  
+
+  = f.submit class: "btn btn-primary"

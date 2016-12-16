@@ -1,0 +1,25 @@
+= provide(:title, "Eyedealist | Image View")
+
+#pin_show.row
+	.col-md-8.col-md-offset-2
+		.panel.panel-default
+			.panel-heading.pin_image
+				= image_tag @pin.image.url
+			.panel-body
+				%h1= @pin.title
+				%p.description= @pin.description
+			- if user_signed_in?
+				.panel-footer
+					.row
+						.col-md-6
+							.btn-group.pull-right	
+								= link_to "Edit", edit_pin_path, class: "btn btn-default"
+								= link_to "Delete", pin_path, method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"
+
+.related.social-list
+	= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-facebook
+	= link_to "https://twitter.com/eyedealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-twitter
+	= link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-instagram

@@ -1,0 +1,26 @@
+= provide(:title, "Eyedealist | Murals")
+
+%header.codrops-header
+	= image_tag "murals.png", :size => "200x124"
+
+#pins.transitions-enabled
+	
+	- @pins.each do |pin|
+		
+		.box.panel.panel-default
+			
+			= link_to (image_tag pin.image), pin.image.url, "data-lightbox" => "murals", "data-title" => "#{pin.title}"
+			
+			- if user_signed_in?
+				%p.user
+					.btn-group
+						= link_to "Edit", edit_pin_path(pin), class: "btn btn-default"
+						= link_to "Delete", pin_path(pin), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"
+
+.related.social-list
+	= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-facebook
+	= link_to "https://twitter.com/eyedealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-twitter
+	= link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-instagram

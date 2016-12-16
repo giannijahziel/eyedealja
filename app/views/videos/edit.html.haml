@@ -1,0 +1,12 @@
+= provide(:title, "Eyedealist | Eit Video")
+
+#edit_page.col-md-8.col-md-offset-2
+	.row
+		.panel.panel-default
+			.panel-heading
+				%h1= "Edit: "+@video.title
+			.panel-body
+				.current_image
+					%strong.center Current Video
+					%iframe{:allowscriptaccess => "always", :allowFullScreen => "true", :frameborder => "0", :src => "http://www.youtube.com/embed/"+@video.link, :title => "YouTube video player", :width => "640", :height => "430"}
+				= render 'form'

@@ -1,0 +1,41 @@
+= provide(:title, "Eyedealist | Exhibitions")
+
+%header.codrops-header
+	= image_tag "exhibitions.png", :size => "200x124"
+
+#pins.transitions-enabled
+	- @galleries.each do |gallery|
+
+		- if gallery.pins.first
+
+			.box.panel.panel-default
+				= link_to (image_tag gallery.pins.first.image.url), gallery_path(gallery)
+				= link_to gallery_path(gallery) do
+					%h2= gallery.name.truncate(14)
+		
+				- if user_signed_in?
+					%p.user
+						.btn-group
+							= link_to "Edit", edit_gallery_path(gallery), class: "btn btn-default"
+							= link_to "Delete", gallery_path(gallery), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"
+
+		- else
+
+			.box.panel.panel-default
+				N/A
+				= link_to gallery_path(gallery) do
+					%h2= gallery.name.truncate(14)
+		
+				- if user_signed_in?  
+					%p.user
+						.btn-group
+							= link_to "Edit", edit_gallery_path(gallery), class: "btn btn-default"
+							= link_to "Delete", gallery_path(gallery), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"
+
+.related.social-list
+	= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-facebook
+	= link_to "https://twitter.com/eyedealer", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-twitter
+	= link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
+		%span.menu-icon.fa.fa-fw.fa-instagram

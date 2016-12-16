@@ -1,0 +1,1372 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"find",
+				"find_video"
+			],
+			[
+				"video",
+				"video"
+			],
+			[
+				"pas",
+				"password_confirmation"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"anz",
+				"anziel-color"
+			],
+			[
+				"padding",
+				"padding: "
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"capos",
+				"capistrano"
+			],
+			[
+				"pad",
+				"padding-top: "
+			],
+			[
+				"user",
+				"user-info"
+			],
+			[
+				"ta",
+				"target"
+			],
+			[
+				"ligh",
+				"line-height: "
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"font",
+				"font-weight: "
+			],
+			[
+				"back",
+				"background-color: "
+			],
+			[
+				"pa",
+				"padding-top: "
+			],
+			[
+				"padd",
+				"padding-top: "
+			],
+			[
+				"authen",
+				"authenticated_root_path"
+			],
+			[
+				"job",
+				"find_job"
+			],
+			[
+				"upda",
+				"updatable"
+			],
+			[
+				"up",
+				"updatable"
+			],
+			[
+				"before",
+				"before_filter"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"pub",
+				"Published"
+			],
+			[
+				"comp",
+				"companyblurb"
+			],
+			[
+				"compan",
+				"company"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"indus",
+				"industry_id"
+			],
+			[
+				"margin",
+				"margin: "
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"oe",
+				"overflow-y: "
+			],
+			[
+				"pr",
+				"primary-color"
+			],
+			[
+				"list",
+				"list-style-type: "
+			],
+			[
+				"text",
+				"text-decoration: "
+			],
+			[
+				"search",
+				"search_params"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"tex",
+				"text-decoration: "
+			],
+			[
+				"marg",
+				"margin-top: "
+			],
+			[
+				"li",
+				"line-height: "
+			],
+			[
+				"meta",
+				"meta_id"
+			],
+			[
+				"current",
+				"current_user"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"bor",
+				"border-radius: "
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"la",
+				"layout"
+			],
+			[
+				"auth",
+				"authenticated_root_path"
+			],
+			[
+				"au",
+				"authenticated_root_path"
+			],
+			[
+				"fa-sign",
+				"fa-sign-out"
+			],
+			[
+				"recr",
+				"recruitment-reimagined"
+			],
+			[
+				"pages",
+				"pages_reimagined"
+			],
+			[
+				"te",
+				"text-decoration: "
+			],
+			[
+				"cate",
+				"categorygroup"
+			],
+			[
+				"new",
+				"new_jobapp"
+			],
+			[
+				"anziel",
+				"anzielhq"
+			],
+			[
+				"bac",
+				"background-color: "
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"img",
+				"img-responsive"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"tem",
+				"template_content"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"Job",
+				"JobApp"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"A",
+				"ActionMailer"
+			],
+			[
+				"lin",
+				"link_to"
+			],
+			[
+				"na",
+				"navbar-text"
+			],
+			[
+				"nav",
+				"navbar-default"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"ca",
+				"category_id"
+			],
+			[
+				"jobs",
+				"jobs_params"
+			],
+			[
+				"jo",
+				"jobs_params"
+			],
+			[
+				"ly",
+				"list-style-type"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"r",
+				"repeat-x"
+			],
+			[
+				"end",
+				"endif"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/videos_controller.rb",
+			"settings":
+			{
+				"buffer_size": 650,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/pins/index.html.haml",
+			"settings":
+			{
+				"buffer_size": 209,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/videos/_form.html.haml",
+			"settings":
+			{
+				"buffer_size": 447,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/videos/show.html.haml",
+			"settings":
+			{
+				"buffer_size": 318,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/pins_controller.rb",
+			"settings":
+			{
+				"buffer_size": 910,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/videos/index.html.haml",
+			"settings":
+			{
+				"buffer_size": 344,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/videos/edit.html.haml",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/assets",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/controllers",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/mailers",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/models",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/layouts",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/pins",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/videos",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/config",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/db"
+	],
+	"file_history":
+	[
+		"/Applications/Classic/realmlist.wtf",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/videos/new.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/models/video.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/layouts/application.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/controllers/videos_controller.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/config/routes.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/pins/index.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/pins/_form.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/pins/show.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/db/seeds.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/pins/new.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/app/views/pins/edit.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/eyedealist/Gemfile",
+		"/Users/kidbazzle/rubyapps/heroku/anziel/app/views/jobs/index.html.haml",
+		"/Users/kidbazzle/Documents/RoaringSteed/2 - Clients/Jamaica Methodists/Website/Method/sites/all/themes/nexus/templates/page.tpl.php",
+		"/Users/kidbazzle/Documents/RoaringSteed/2 - Clients/Jamaica Methodists/Website/Method/sites/all/themes/nexus/templates/node.tpl.php",
+		"/Users/kidbazzle/Documents/RoaringSteed/2 - Clients/Jamaica Methodists/Website/Method/sites/all/themes/nexus/css/bootstrap.min.css",
+		"/Users/kidbazzle/Downloads/Capture One 8/Trial Reset/C1TrialReset",
+		"/Users/kidbazzle/Desktop/jquery.js",
+		"/Users/kidbazzle/Desktop/index.html",
+		"/Users/kidbazzle/Downloads/styles.css",
+		"/Users/kidbazzle/Desktop/PS_Team_DigiSized/index.html",
+		"/Users/kidbazzle/Documents/bootcamp/index.html",
+		"/Users/kidbazzle/Documents/bootcamp/faq.html",
+		"/Users/kidbazzle/Documents/bootcamp/css/styles.css",
+		"/Users/kidbazzle/Documents/bootcamp/css/style.css",
+		"/Users/kidbazzle/Documents/bootcamp/idea.html",
+		"/Users/kidbazzle/Documents/RoaringSteed/7 - In House Apps/Anziel App/Rendered Resources/Dean faq-template/index.html",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/contributors.txt",
+		"/Users/kidbazzle/.zshrc",
+		"/Users/kidbazzle/.bashrc",
+		"/Users/kidbazzle/.bash_profile",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/assets/javascripts/application.js",
+		"/Users/kidbazzle/rubyapps/github/kanban-develop/Gemfile",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/_applicationHeader.html.haml",
+		"/Users/kidbazzle/.oh-my-zsh/themes/bazzle.zsh-theme",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/assets/stylesheets/application.scss",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/Gemfile",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/registration.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/story.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/logout.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/app.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/landing.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/application.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/db/seeds.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/tmp/cache/assets/development/sprockets/v3.0/CbSYbEsmzg8pKue_hSlm4MYoHrgVfxmqr19DZQs_eEs.cache",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/config/deploy.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/config/initializers/heap.rb",
+		"/Users/kidbazzle/Desktop/anzielv0.1/index.html",
+		"/Users/kidbazzle/Desktop/Zoon10/index.html",
+		"/Users/kidbazzle/Desktop/website/index.html",
+		"/Users/kidbazzle/Desktop/dreamja/index.html",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/_footerTrim.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/pages/pricing.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/pages/reimagined.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/pages/home.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/config/environments/development.rb",
+		"/Users/kidbazzle/rubyapps/heroku/anziel/Gemfile",
+		"/Users/kidbazzle/rubyapps/heroku/anziel/app/views/layouts/_landingHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/heroku/anziel/Gemfile.lock",
+		"/Users/kidbazzle/rubyapps/heroku/anziel/.gitignore",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/Capfile",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/config/deploy/production.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/controllers/recruiters_controller.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/seekers/_seekerLoginForm.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/recruiters/_recruiterLoginForm.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/assets/stylesheets/pages.scss",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/pages/terms.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/pages/newregistration.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/controllers/pages_controller.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/pages/about.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/_footer.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/_storyHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/_appHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/_landingHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/pages/faq.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/jobs/new.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/jobs/show.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/devise/sessions/new.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/config/routes.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/seekers/new.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/_logoutHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/app/views/layouts/_questions.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/.gitignore",
+		"/Users/kidbazzle/Downloads/SidebarTransitions/css/demo.css",
+		"/Users/kidbazzle/Downloads/SidebarTransitions/css/component.css",
+		"/Users/kidbazzle/Downloads/SidebarTransitions/index.html",
+		"/Users/kidbazzle/Downloads/SidebarTransitions/js/sidebarEffects.js",
+		"/Users/kidbazzle/Downloads/SidebarTransitions/js/classie.js",
+		"/Users/kidbazzle/Downloads/SidebarTransitions/css/icons.css",
+		"/Users/kidbazzle/Downloads/SidebarTransitions/css/normalize.css",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/layouts/landing.html.haml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/config/secrets.yml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/config/database.yml",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/config/secret.yml.example",
+		"/Users/kidbazzle/rubyapps/anziel/.gitignore",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/layouts/_applicationHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/layouts/_appHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/layouts/_footer.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/layouts/_footerTrim.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/layouts/_landingHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/layouts/_logoutHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/layouts/_storyHeader.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/controllers/responses_controller.rb",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/responses/index.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/responses/show.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/responses/edit.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/assets/stylesheets/pages.scss",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/jobs/show.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/app/controllers/jobs_controller.rb",
+		"/Users/kidbazzle/rubyapps/anziel/app/assets/stylesheets/application.scss",
+		"/Users/kidbazzle/rubyapps/anziel/app/assets/javascripts/ckeditor/config.js",
+		"/Users/kidbazzle/rubyapps/anziel/app/views/jobs/_form.html.haml",
+		"/Users/kidbazzle/rubyapps/anziel/log/development.log",
+		"/Users/kidbazzle/rubyapps/native/poly/Gemfile",
+		"/Users/kidbazzle/rubyapps/native/poly/log/development.log",
+		"/Users/kidbazzle/rubyapps/anziel/config/initializers/assets.rb",
+		"/Users/kidbazzle/rubyapps/anziel/app/controllers/application_controller.rb",
+		"/Users/kidbazzle/rubyapps/anziel/config/initializers/ckeditor.rb",
+		"/Users/kidbazzle/rubyapps/anziel/Gemfile",
+		"/Users/kidbazzle/rubyapps/anziel/app/assets/javascripts/ckeditor/basepath.js.erb",
+		"/Users/kidbazzle/rubyapps/anziel/config/environments/production.rb",
+		"/Users/kidbazzle/rubyapps/anziel/log/production.log",
+		"/Users/kidbazzle/rubyapps/anziel/config/secrets.yml",
+		"/Users/kidbazzle/rubyapps/anziel/lib/tasks/searches.rake",
+		"/Users/kidbazzle/rubyapps/anziel/app/controllers/searches_controller.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/config/initializers/assets.rb",
+		"/Users/kidbazzle/rubyapps/bitbucket/anziel/vendor/assets/javascripts/ckeditor/skins/bootstrapck/scss/components/_colorpanel.scss"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"50%",
+			"right",
+			"february",
+			":hover",
+			"header-nav",
+			": 90%",
+			"here",
+			"regist",
+			">\n",
+			"faq",
+			"regis",
+			"hop",
+			".top",
+			".navbar-nav>li>a.pushdown",
+			".recruiter-register",
+			".label",
+			"modal",
+			"page-wrapper",
+			"seeker",
+			".view-jmd-news-page",
+			"#main-content .region-content .view-jmd-news-page .views-row",
+			"-webkit-transition",
+			"#tf-menu.stick",
+			"font-family",
+			"(min-width: 768px)",
+			"user",
+			"image",
+			"moono",
+			"bootstrapck",
+			"ckeditor",
+			"gret",
+			"button",
+			"#stories",
+			".navbar-nav > li > a {",
+			".navbar-nav > li > a{",
+			".navbar-nav > li > a",
+			".navbar-nav > li > a ",
+			".navbar-nav > li > a",
+			".navbar-nav",
+			"padding-top:",
+			"padding-top: 15px",
+			"@media (min-width: 768px)",
+			"@media (min-width: 768px)\n.navbar-nav > li > a ",
+			"width",
+			"200",
+			"chet_faker_2.jpg",
+			"sidebar-list a",
+			"sidebar-list",
+			"swift",
+			"resumeurl",
+			"cd-faq-items",
+			".cd-faq-items",
+			"sidebar-wrapper",
+			"cursor",
+			"1.0.0pre1",
+			"active admin",
+			"powered",
+			"namespace",
+			".text",
+			"img",
+			"img-responsive",
+			"img",
+			".nav-tabs > li.active > a,",
+			"nav",
+			"overflow",
+			"modal",
+			"#del",
+			"cd-pop",
+			"modal",
+			"transition",
+			"label",
+			"#EB5E28",
+			"#F3BB45",
+			"#7AC29A",
+			"7AC29A",
+			"#68B3C8",
+			"#7A9E9F",
+			"anziel",
+			"label",
+			"feed",
+			"body",
+			"btn",
+			"a.single",
+			"title",
+			"sidebar-list",
+			"faq",
+			"alert",
+			"sidebar-list",
+			"scrolltotop",
+			".sidebar-list a",
+			".sidebar-list",
+			"sidebar-wra",
+			"sidebar-list",
+			"sidebar-wrapper",
+			"sideba",
+			"container",
+			".recruiter-register",
+			"#43b567",
+			"light",
+			"json",
+			"rails",
+			"click",
+			"cd-button",
+			"appmenu",
+			"myModal",
+			"video",
+			"about",
+			"header",
+			"social",
+			"single-job",
+			"fed136",
+			"fed139",
+			"fed",
+			"footer",
+			"call",
+			"foot",
+			"footer",
+			"navbar",
+			"radius",
+			"wmuSlider",
+			"features",
+			"slide",
+			"slideIn",
+			"footer",
+			"see",
+			"recruiter",
+			"teacher",
+			"recruiter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Read More",
+			"anziel_profiler.png",
+			"$danger-color",
+			"$warning-color",
+			"$success-color",
+			"$info-color",
+			"$primary-color",
+			"$anziel-color",
+			"AppModal",
+			"43b567",
+			"storySwapper",
+			"stories",
+			"fade",
+			"strong"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/kidbazzle/rubyapps/bitbucket/eyedealist"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/videos_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/pins/index.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/videos/_form.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/videos/show.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/pins_controller.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/videos/index.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								321,
+								294
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/videos/edit.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/Ruby/Ruby.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"scss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"sees",
+				"tmp/cache/assets/development/sprockets/v3.0/CbSYbEsmzg8pKue_hSlm4MYoHrgVfxmqr19DZQs_eEs.cache"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"trim",
+				"app/views/layouts/_footerTrim.html.haml"
+			],
+			[
+				"pricing",
+				"app/views/pages/pricing.html.haml"
+			],
+			[
+				"re",
+				"app/views/pages/reimagined.html.haml"
+			],
+			[
+				"home",
+				"app/views/pages/home.html.haml"
+			],
+			[
+				"hom",
+				"app/views/pages/home.html.haml"
+			],
+			[
+				"footr",
+				"app/views/layouts/_footerTrim.html.haml"
+			],
+			[
+				"landing",
+				"app/views/layouts/_landingHeader.html.haml"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"page",
+				"app/assets/stylesheets/pages.scss"
+			],
+			[
+				"about",
+				"app/views/pages/about.html.haml"
+			],
+			[
+				"reima",
+				"app/views/pages/reimagined.html.haml"
+			],
+			[
+				"footetr",
+				"app/views/layouts/_footerTrim.html.haml"
+			],
+			[
+				"pages",
+				"app/assets/stylesheets/pages.scss"
+			],
+			[
+				"footertr",
+				"app/views/layouts/_footerTrim.html.haml"
+			],
+			[
+				"footer",
+				"app/views/layouts/_footer.html.haml"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"faq",
+				"app/views/pages/faq.html.haml"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"cap",
+				"Capfile"
+			],
+			[
+				"pr",
+				"app/views/pages/pricing.html.haml"
+			],
+			[
+				"prici",
+				"app/views/pages/pricing.html.haml"
+			],
+			[
+				"pa",
+				"app/assets/stylesheets/pages.scss"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"r",
+				"config/routes.rb"
+			],
+			[
+				"foo",
+				"app/views/layouts/_footer.html.haml"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"header",
+				"app/views/layouts/_applicationHeadervs.html.haml"
+			],
+			[
+				"router",
+				"config/routes.rb"
+			],
+			[
+				"applica",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"app",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"headervs",
+				"app/views/layouts/_applicationHeadervs.html.haml"
+			],
+			[
+				"vsheader",
+				"app/views/layouts/_applicationHeadervs.html.haml"
+			],
+			[
+				"land",
+				"app/views/layouts/_landingHeader.html.haml"
+			],
+			[
+				"appl",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"responses",
+				"app/controllers/responses_controller.rb"
+			],
+			[
+				"bran",
+				"app/views/pages/brand.html.haml"
+			],
+			[
+				"_a",
+				"app/views/layouts/_applicationHeader.html.haml"
+			],
+			[
+				"g",
+				"Gemfile"
+			],
+			[
+				"_ap",
+				"app/views/layouts/_applicationHeader.html.haml"
+			],
+			[
+				"_app",
+				"app/views/layouts/_applicationHeader.html.haml"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"links",
+				"config/initializers/site_links.rb"
+			],
+			[
+				"sessionnew",
+				"app/views/devise/sessions/new.html.haml"
+			],
+			[
+				"registr",
+				"app/views/pages/newregistration.html.haml"
+			],
+			[
+				"_form",
+				"app/views/job_apps/_form.html.haml"
+			],
+			[
+				"a",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"input",
+				"app/inputs/custom_url_input.rb"
+			],
+			[
+				"recruiterco",
+				"app/controllers/recruiters_controller.rb"
+			],
+			[
+				"appli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"definput",
+				"tmp/cache/assets/development/sass/0fb4cf61dd0e2d3b5642f04db70d0fe89ac2a72a/_input-groups.scssc"
+			],
+			[
+				"jsappl",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"lock",
+				"Gemfile.lock"
+			],
+			[
+				"footerle",
+				"app/views/layouts/_footerLetters.html.haml"
+			],
+			[
+				"devise",
+				"config/locales/devise.en.yml"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"jobcontr",
+				"app/controllers/jobs_controller.rb"
+			],
+			[
+				"_appl",
+				"app/views/layouts/_applicationHeader.html.haml"
+			],
+			[
+				"roubt",
+				"config/routes.rb"
+			],
+			[
+				"application",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"jobshow",
+				"app/views/jobs/show.html.haml"
+			],
+			[
+				"pagescss",
+				"app/assets/stylesheets/pages.scss"
+			],
+			[
+				"pages.css",
+				"app/assets/stylesheets/pages.scss"
+			],
+			[
+				"page.css",
+				"app/assets/stylesheets/pages.scss"
+			],
+			[
+				"application.css",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"_list",
+				"app/views/jobs/_list.html.haml"
+			],
+			[
+				"pages_c",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"roue",
+				"config/routes.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"job",
+				"app/models/job.rb"
+			],
+			[
+				"mail",
+				"config/initializers/mail.rb"
+			],
+			[
+				"model/job",
+				"app/models/job_app.rb"
+			],
+			[
+				"model/user",
+				"app/models/user.rb"
+			],
+			[
+				"envir",
+				"config/environments/development.rb"
+			],
+			[
+				"envi",
+				"config/environment.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
