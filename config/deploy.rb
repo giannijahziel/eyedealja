@@ -2,7 +2,7 @@
 lock '3.4.1'
 
 set :application, 'eyedealist'
-set :repo_url, 'git@bitbucket.org:kidbazzle/eyedealja.git'
+set :repo_url, 'git@gitgub.com:giannijahziel/eyedealja.git'
 
 #set :passenger_restart_with_touch, true
 set :deploy_to, '/home/deploy/eyedealist'
