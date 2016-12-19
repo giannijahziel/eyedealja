@@ -1,7 +1,15 @@
 !!! 5
-%html
+%html{lang: "en"}
 %head
-	%title Eyedealist | Home
+	%title= yield(:title)
+
+	%meta{ "http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
+	%meta{ :content => "Eyedealist", :name => "author" }
+	%meta{ :content => "Eyedealist is a Jamaica-based illustrator and mural painter at the vanguard of his generation.", :name => "description" }
+	%meta{ :content => "jamaican, illustrator, muralist, eyedealist, painter", :name => "keywords" }
+	%meta{ :content => "width=device-width, initial-scale=1.0", :name => "viewport" }
+	%meta{ :content => "#FFD700", :name => "theme-color" }
+
 	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
 	= csrf_meta_tags
@@ -9,30 +17,191 @@
 
 %body
 	#perspective.perspective.effect-airbnb
-		.container
-			.wrapper
-				
-				- flash.each do |name, msg|
-					= content_tag :div, msg, class: "alert alert-info"
-				= yield
+		- if (current_page?(root_url)) && ( @wallpaper )
+			.container{:style => "background-image: url(#{request.base_url}#{@wallpaper.image.url}"}
+				%p
+					%btn.btn.super-button#super-open#showMenu
+						%br
+						Menu
+
+				.wrapper
+					- flash.each do |name, msg|
+						= content_tag :div, msg, class: "alert alert-info"
+					= yield
+
+			%nav.outer-nav.left.vertical
+				= link_to root_path do
+					%span.menu-icon.fa.fa-fw.fa-home
+						%span.navi-text Home
+				= link_to about_path do
+					%span.menu-icon.fa.fa-fw.fa-address-book-o
+						%span.navi-text About Me
+				= link_to pins_murals_path do
+					%span.menu-icon.fa.fa-fw.fa-google-wallet
+						%span.navi-text Murals
+				= link_to pins_illustrations_path do
+					%span.menu-icon.fa.fa-fw.fa-pencil
+						%span.navi-text Illustrations
+				= link_to pins_publications_path do
+					%span.menu-icon.fa.fa-fw.fa-leanpub
+						%span.navi-text Publications
+				= link_to galleries_path do
+					%span.menu-icon.fa.fa-fw.fa-th
+						%span.navi-text Exhibitons
+				= link_to videos_path do
+					%span.menu-icon.fa.fa-fw.fa-video-camera
+						%span.navi-text Videos
+				= link_to links_press_path do
+					%span.menu-icon.fa.fa-fw.fa-newspaper-o
+						%span.navi-text Press
+				= link_to "https://twitter.com/eyedealer", target: '_blank' do
+					%span.menu-icon.fa.fa-fw.fa-paint-brush
+						%span.navi-text Paint Shop
+				= link_to "https://twitter.com/eyedealer", target: '_blank' do
+					%span.menu-icon.fa.fa-fw.fa-shopping-basket
+						%span.navi-text Threads
 
 
-		%nav.outer-nav.left.vertical
-			%ul.nav.navbar-nav.navbar-right
-				%li= link_to "About", about_path
-				%li= link_to "Photos", pins_path
-				%li= link_to "Videos", videos_path
-				%li= link_to "Press", links_path
-				%li= link_to "New Press", new_link_path
-				%li= link_to "New Image", new_pin_path
-				%li= link_to "New Video", new_video_path
-				%li= link_to "Account", edit_user_registration_path
-				%li= link_to "Sign In", new_user_session_path
+			- if user_signed_in?
+				.menu-wrap
+					%nav.menu
+
+						= link_to edit_user_registration_path, target: '_blank' do
+							.profile
+								= image_tag "the_eyedealist_profile.jpg", :size => '37x37'
+								%span Matthew McCarthy
+
+						.link-list
+							= link_to new_pin_path do
+								%span.menu-icon.fa.fa-fw.fa-image
+								New Image
+							= link_to pins_path do
+								%span.menu-icon.fa.fa-fw.fa-image
+								All Images
+							= link_to new_video_path do
+								%span.menu-icon.fa.fa-fw.fa-video-camera
+								New Video
+							= link_to new_gallery_path do
+								%span.menu-icon.fa.fa-fw.fa-th-large
+								New Gallery
+							= link_to new_link_path do
+								%span.menu-icon.fa.fa-fw.fa-newspaper-o
+								New Press Link
+							= link_to new_wallpaper_path do
+								%span.menu-icon.fa.fa-fw.fa-image
+								New Wallpaper
+							= link_to wallpapers_path do
+								%span.menu-icon.fa.fa-fw.fa-image
+								All Wallpapers
+							
+						.icon-list
+							= link_to "https://www.facebook.com/eye.dealer" do
+								%span.menu-icon.fa.fa-fw.fa-facebook
+							= link_to "https://twitter.com/eyedealer" do
+								%span.menu-icon.fa.fa-fw.fa-twitter
+							= link_to "https://www.instagram.com/eye.dealist" do
+								%span.menu-icon.fa.fa-fw.fa-instagram
+							= link_to destroy_user_session_path, :method => :delete do
+								%span.menu-icon.fa.fa-fw.fa-power-off
+
+				%btn.btn.menu-button#open-button
+					%i.fa.fa-fw.fa-cogs
+						%span Open Menu
+
+		- else
+
+			.container
 				
-				- if user_signed_in?
-					%ul.nav.navbar-nav.navbar-right
-						%li= link_to "Sign Out", destroy_user_session_path, method: :delete
+				%p
+					%btn.btn.super-button#super-open#showMenu
+						%br
+						Menu
+
+				.wrapper
+					- flash.each do |name, msg|
+						= content_tag :div, msg, class: "alert alert-info"
+					= yield
+
+			%nav.outer-nav.left.vertical
+				= link_to root_path do
+					%span.menu-icon.fa.fa-fw.fa-home
+						%span.navi-text Home
+				= link_to about_path do
+					%span.menu-icon.fa.fa-fw.fa-address-book-o
+						%span.navi-text About Me
+				= link_to pins_murals_path do
+					%span.menu-icon.fa.fa-fw.fa-google-wallet
+						%span.navi-text Murals
+				= link_to pins_illustrations_path do
+					%span.menu-icon.fa.fa-fw.fa-pencil
+						%span.navi-text Illustrations
+				= link_to pins_publications_path do
+					%span.menu-icon.fa.fa-fw.fa-leanpub
+						%span.navi-text Publications
+				= link_to galleries_path do
+					%span.menu-icon.fa.fa-fw.fa-th
+						%span.navi-text Exhibitons
+				= link_to videos_path do
+					%span.menu-icon.fa.fa-fw.fa-video-camera
+						%span.navi-text Videos
+				= link_to links_press_path do
+					%span.menu-icon.fa.fa-fw.fa-newspaper-o
+						%span.navi-text Press
+				= link_to "https://twitter.com/eyedealer", target: '_blank' do
+					%span.menu-icon.fa.fa-fw.fa-paint-brush
+						%span.navi-text Paint Shop
+				= link_to "https://twitter.com/eyedealer", target: '_blank' do
+					%span.menu-icon.fa.fa-fw.fa-shopping-basket
+						%span.navi-text Threads
+
+			- if user_signed_in?
+				.menu-wrap
+					%nav.menu
+
+						= link_to edit_user_registration_path, target: '_blank' do
+							.profile
+								= image_tag "the_eyedealist_profile.jpg", :size => '37x37'
+								%span Matthew McCarthy
+
+						.link-list
+							= link_to new_pin_path do
+								%span.menu-icon.fa.fa-fw.fa-image
+								New Image
+							= link_to pins_path do
+								%span.menu-icon.fa.fa-fw.fa-image
+								All Images
+							= link_to new_video_path do
+								%span.menu-icon.fa.fa-fw.fa-video-camera
+								New Video
+							= link_to new_gallery_path do
+								%span.menu-icon.fa.fa-fw.fa-th-large
+								New Gallery
+							= link_to new_link_path do
+								%span.menu-icon.fa.fa-fw.fa-newspaper-o
+								New Press Link
+							= link_to new_wallpaper_path do
+								%span.menu-icon.fa.fa-fw.fa-image
+								New Wallpaper
+							= link_to wallpapers_path do
+								%span.menu-icon.fa.fa-fw.fa-image
+								All Wallpapers
+
+						.icon-list
+							= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
+								%span.menu-icon.fa.fa-fw.fa-facebook
+							= link_to "https://twitter.com/eyedealer", target: '_blank' do
+								%span.menu-icon.fa.fa-fw.fa-twitter
+							= link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
+								%span.menu-icon.fa.fa-fw.fa-instagram
+							= link_to destroy_user_session_path, :method => :delete do
+								%span.menu-icon.fa.fa-fw.fa-power-off
+
+				%btn.btn.menu-button#open-button
+					%i.fa.fa-fw.fa-cogs
+						%span Open Menu			
+
 
 %script(src="/assets/modernizr.custom.25376.js")
 %script(src="/assets/menu.js")
 %script(src="/assets/classie.js")
+%script(src="/assets/cogwheel.js")

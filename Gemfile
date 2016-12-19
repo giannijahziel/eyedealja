@@ -58,12 +58,6 @@ ruby '2.2.1'
 		# Read more: https://github.com/rails/spring
 		gem 'spring'
 
-
-		gem 'capistrano', '~> 3.4.0'
-		gem 'capistrano-rails', '~> 1.2'
-		gem 'capistrano-rbenv', github: "capistrano/rbenv"
-
-
 	end
 
 	group :production do

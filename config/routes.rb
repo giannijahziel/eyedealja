@@ -32,5 +32,10 @@ Rails.application.routes.draw do
 
   end
 
+  match "/murals", to: "pins#murals", via: :get, as: :pins_murals
+  match "/illustrations", to: "pins#illustrations", via: :get, as: :pins_illustrations
+  match "/publications", to: "pins#publications", via: :get, as: :pins_publications
+  match "/press", to: "links#index", via: :get, as: :links_press
+
   root "page#home"
 end
