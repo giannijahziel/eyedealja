@@ -5,7 +5,7 @@ set :application, 'eyedealja'
 set :repo_url, 'git@github.com:giannijahziel/eyedealja.git'
 
 #set :passenger_restart_with_touch, true
-# set :deploy_to, '/home/deploy/eyedealist'
+set :deploy_to, '/home/deploy/eyedealist'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -65,7 +65,7 @@ namespace :deploy do
     end
   end
 
-  # after :publishing, 'deploy:restart'
-  # after :finishing, 'deploy:cleanup'
+  after :publishing, 'deploy:restart'
+  after :finishing, 'deploy:cleanup'
 
 end
