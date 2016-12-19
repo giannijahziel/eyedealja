@@ -1,12 +1,8 @@
-= Pinterest Style Web App
-== Week 4 of my 12 in 12 Challenge
+= Website for the Eyedealist
+== New Jamaica
 
-My goal with this challenge is to teach myself Ruby on Rails by building a new web app (using rails) each week for 12 weeks.
-
-This week I built a Pinterest style web app, with Users, Pins, Image Uploading and all that good stuff!
-
-{View the demo application here}[http://week-4-pin-board.herokuapp.com/], and watch the {How To Screencast here}[http://youtu.be/abcnfFS_DS8]
+The aim was to create an interative and reactionary web experience for users of the website while maintaining a minimalist aesthetic.
 
 ---
 
-You can find me on {Twitter}[http://twitter.com/mackenziechild] or follow along for more Rails on my website {MackenzieChild.me}[http://mackenziechild.me]
+You can find me on {Twitter}[http://twitter.com/kidbazzle]
