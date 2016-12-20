@@ -4,7 +4,7 @@ end
 
 source 'https://rubygems.org'
 
-ruby '2.2.1'
+ruby '2.3.1'
 
 	gem 'rails', '4.1.5'
 	gem 'sass-rails', '~> 4.0.3'
@@ -64,8 +64,6 @@ ruby '2.2.1'
 		gem 'capistrano', '~> 3.1.0'
 		gem 'capistrano-bundler', '~> 1.1.2'
 		gem 'capistrano-rails', '~> 1.1.1'
-
-		# Add this if you're using rbenv
 		gem 'capistrano-rbenv', github: "capistrano/rbenv"
 	end
 
