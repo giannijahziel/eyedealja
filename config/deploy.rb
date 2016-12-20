@@ -3,9 +3,9 @@ lock '3.4.1'
 
 set :application, 'eyedealja'
 set :repo_url, 'https://github.com/giannijahziel/eyedealja.git'
-
-#set :passenger_restart_with_touch, true
 set :deploy_to, '/home/deploy/eyedealweb'
+
+set :passenger_restart_with_touch, true
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
