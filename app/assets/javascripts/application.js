@@ -23,7 +23,7 @@
 //= require masonry/jquery.masonry
 //= require lightbox
 //= require turbolinks
-//= require_tree .
+
 
 
 
