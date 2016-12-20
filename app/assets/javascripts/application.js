@@ -23,6 +23,10 @@
 //= require masonry/jquery.masonry
 //= require lightbox
 //= require turbolinks
+//= require classie.js
+//= require cogwheel.js
+//= require menu.js
+//= require modernizr.custom.25376.js
 //= require_tree .
 
 
