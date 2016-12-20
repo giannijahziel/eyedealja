@@ -61,7 +61,7 @@ ruby '2.3.1'
 	end
 
 	group :development do
-		gem 'capistrano', '~> 3.7.1'
+		gem 'capistrano', '~> 3.4.1'
 		gem 'capistrano-bundler', '~> 1.1.2'
 		gem 'capistrano-rails', '~> 1.1.1'
 		gem 'capistrano-rbenv', github: "capistrano/rbenv"
