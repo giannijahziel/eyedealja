@@ -23,6 +23,10 @@ Rails.application.configure do
   config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   # config.assets.precompile += %w( *.js *.css )
+  config.assets.precompile += %w( classie.js )
+  config.assets.precompile += %w( cogwheel.js )
+  config.assets.precompile += %w( menu.js )
+  config.assets.precompile += %w( modernizr.custom.25376.js )
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
