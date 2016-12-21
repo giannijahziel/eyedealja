@@ -1,4 +1,5 @@
-(function() {
+var ready;
+ready = (function() {
 
 	var bodyEl = document.body,
 		content = document.querySelector( '.content-wrap' ),
@@ -38,3 +39,6 @@
 	init();
 
 })();
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
