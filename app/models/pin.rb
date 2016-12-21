@@ -8,6 +8,6 @@ class Pin < ActiveRecord::Base
 		:path => ":rails_root/public/images/:id/:filename",
 		:url  => "/images/:id/:filename"
 
-	has_attached_file :image, :styles => { :medium => "300x300>" }
+	has_attached_file :image, :styles => { :medium => "300x300>", :big => "300x169>" }
 	validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 end
