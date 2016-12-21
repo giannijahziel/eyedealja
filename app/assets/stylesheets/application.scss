@@ -20,6 +20,24 @@
 @import 'lightbox';
 @import "font-awesome";
 
+
+// Variable definitions
+$anziel-color: #43B567;
+$bazzle-color: #CD3838;
+
+$primary-color: #7A9E9F;
+$info-color: #68B3C8;
+$success-color: $anziel-color;
+// #7AC29A
+
+$warning-color: #F3BB45;
+$danger-color: #FC7169;
+// EB5E28
+
+$twitter: #55acee;
+
+
+
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 body {

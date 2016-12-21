@@ -23,6 +23,7 @@ ruby '2.3.1'
 	gem 'aws-sdk', '~> 1.20.0'
 	gem 'simple_form', '~> 3.0.2'
 	gem 'sdoc', '~> 0.4.0',          group: :doc
+	
 
 	# Nice icon fonts
 	gem 'font-awesome-rails', '~> 4.7.0.0'
