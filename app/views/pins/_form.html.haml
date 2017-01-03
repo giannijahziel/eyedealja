@@ -10,7 +10,7 @@
 
 	.form-group
 		%p= f.label "Select a category for the image to be palced in :-"
-		= f.collection_select :category_id, Category.order("id ASC"), :id, :name, {selected: 4}, { class: "form-control" }
+		= f.collection_select :category_id, Category.order("id ASC"), :id, :name, {selected: 1}, { class: "form-control" }
 
 	%br
 
