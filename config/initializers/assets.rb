@@ -8,3 +8,7 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 
 Rails.application.config.assets.precompile += %w( lightbox/* )
+Rails.application.config.assets.precompile += %w( modernizr.custom.25376.js )
+Rails.application.config.assets.precompile += %w( menu.js )
+Rails.application.config.assets.precompile += %w( classie.js )
+Rails.application.config.assets.precompile += %w( cogwheel.js )

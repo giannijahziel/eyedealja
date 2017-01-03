@@ -54,10 +54,10 @@
 				= link_to links_press_path do
 					%span.menu-icon.fa.fa-fw.fa-newspaper-o
 						%span.navi-text Press
-				= link_to "https://twitter.com/eyedealer", target: '_blank' do
+				= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
 					%span.menu-icon.fa.fa-fw.fa-paint-brush
 						%span.navi-text Paint Shop
-				= link_to "https://twitter.com/eyedealer", target: '_blank' do
+				= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
 					%span.menu-icon.fa.fa-fw.fa-shopping-basket
 						%span.navi-text Threads
 
@@ -147,10 +147,10 @@
 				= link_to links_press_path do
 					%span.menu-icon.fa.fa-fw.fa-newspaper-o
 						%span.navi-text Press
-				= link_to "https://twitter.com/eyedealer", target: '_blank' do
+				= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
 					%span.menu-icon.fa.fa-fw.fa-paint-brush
 						%span.navi-text Paint Shop
-				= link_to "https://twitter.com/eyedealer", target: '_blank' do
+				= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
 					%span.menu-icon.fa.fa-fw.fa-shopping-basket
 						%span.navi-text Threads
 
@@ -198,9 +198,10 @@
 
 				%btn.btn.menu-button#open-button
 					%i.fa.fa-fw.fa-cogs
-						%span Open Menu
+						%span Open Menu			
 
-%script(src="/assets/modernizr.custom.25376.js")
-%script(src="/assets/menu.js")
-%script(src="/assets/classie.js")
-%script(src="/assets/cogwheel.js")
+
+= javascript_include_tag "modernizr.custom.25376.js"
+= javascript_include_tag "menu.js"
+= javascript_include_tag "classie.js"
+= javascript_include_tag "cogwheel.js"
