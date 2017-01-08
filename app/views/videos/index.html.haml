@@ -3,9 +3,9 @@
 %header.codrops-header
 	= image_tag "videos_sm.png"
 
-#pins.transitions-enabled
+#pins.transitions-enabled.masonry
 	- @videos.each do |video|
-		.box.panel.panel-default	
+		.box.panel.panel-default.masonry-brick	
 			%iframe{:allowscriptaccess => "always", :allowFullScreen => "true", :frameborder => "0", :src => "http://www.youtube.com/embed/"+video.link, :title => "YouTube video player", :width => "348", :height => "234"}
 			- if user_signed_in?
 				.btn-group
