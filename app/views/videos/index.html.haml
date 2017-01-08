@@ -7,7 +7,7 @@
 	#pins.transitions-enabled
 		- @videos.each do |video|
 			.box.panel.panel-default.col-md-4.video-fix
-				%iframe{:allowscriptaccess => "always", :allowFullScreen => "true", :frameborder => "0", :src => "http://www.youtube.com/embed/"+video.link, :title => "YouTube video player", :width => "348", :height => "234"}
+				%iframe{:allowscriptaccess => "always", :allowFullScreen => "true", :frameborder => "0", :src => "http://www.youtube.com/embed/"+video.link, :title => "YouTube video player", :width => "405", :height => "272"}
 				- if user_signed_in?
 					.btn-group
 						= link_to "Edit", edit_video_path(video), class: "btn btn-default"
