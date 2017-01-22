@@ -8,16 +8,16 @@ class PinsController < ApplicationController
 		@pins = Pin.all.order("created_at DESC")
 	end
 
-	def murals
-		@pins = Pin.where("category_id = ?", 1).order("created_at DESC")
-	end
-
 	def illustrations
 		@pins = Pin.where("category_id = ?", 2).order("created_at DESC")
 	end
 
-	def publications
+	def murals
 		@pins = Pin.where("category_id = ?", 3).order("created_at DESC")
+	end
+
+	def publications
+		@pins = Pin.where("category_id = ?", 4).order("created_at DESC")
 	end
 
 	def show
