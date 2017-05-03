@@ -1,4 +1,4 @@
-= provide(:title, "Eyedealist | Wallpapers")
+= provide(:title, "Wallpapers | Eyedealist")
 
 %header.codrops-header
      %h2 Wallpapers
@@ -10,16 +10,16 @@
           - @wallpapers.each do |wallpaper|
                .col-md-4
                     %h3= wallpaper.name
-                    
+
                     = image_tag wallpaper.image.url(:thumb)
-                    
+
                     - if wallpaper.enabled
                          %p
-                              %strong Status: 
+                              %strong Status:
                               ON
                     - else
                          %p
-                              %strong Status: 
+                              %strong Status:
                               OFF
 
                     .btn-group
@@ -28,12 +28,3 @@
 - else
      #pins.transitions-enabled
           .related No wallpapers uploaded as yet.
-
-
-.related.social-list
-     = link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
-          %span.menu-icon.fa.fa-fw.fa-facebook
-     = link_to "https://twitter.com/eyedealer", target: '_blank' do
-          %span.menu-icon.fa.fa-fw.fa-twitter
-     = link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
-          %span.menu-icon.fa.fa-fw.fa-instagram

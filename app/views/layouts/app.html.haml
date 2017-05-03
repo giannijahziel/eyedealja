@@ -13,7 +13,7 @@
 	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
 	= csrf_meta_tags
-	
+
 
 %body
 	#perspective.perspective.effect-airbnb
@@ -28,6 +28,8 @@
 					- flash.each do |name, msg|
 						= content_tag :div, msg, class: "alert alert-info"
 					= yield
+
+					= render 'shared/footer'
 
 			%nav.outer-nav.left.vertical
 				= link_to root_path do
@@ -93,7 +95,7 @@
 							= link_to wallpapers_path do
 								%span.menu-icon.fa.fa-fw.fa-image
 								All Wallpapers
-							
+
 						.icon-list
 							= link_to "https://www.facebook.com/eye.dealer" do
 								%span.menu-icon.fa.fa-fw.fa-facebook
@@ -111,7 +113,7 @@
 		- else
 
 			.container
-				
+
 				%p
 					%btn.btn.super-button#super-open#showMenu
 						%br
@@ -121,6 +123,8 @@
 					- flash.each do |name, msg|
 						= content_tag :div, msg, class: "alert alert-info"
 					= yield
+
+					= render 'shared/footer'
 
 			%nav.outer-nav.left.vertical
 				= link_to root_path do
@@ -198,7 +202,7 @@
 
 				%btn.btn.menu-button#open-button
 					%i.fa.fa-fw.fa-cogs
-						%span Open Menu			
+						%span Open Menu
 
 
 = javascript_include_tag "modernizr.custom.25376.js"

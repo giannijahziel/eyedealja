@@ -1,4 +1,4 @@
-= provide(:title, "Eyedealist | Press Coverage")
+= provide(:title, "Press Coverage | Eyedealist")
 
 %header.codrops-header
 	= image_tag "press_sm.png"
@@ -11,17 +11,9 @@
 		.col-md-6.left
 			%h3
 				= link_to link.title, link.url, target: '_blank'
-				
+
 				- if user_signed_in?
 
 					.btn-group
 						= link_to "Edit", edit_link_path(link), class: "btn btn-primary"
 						= link_to "Delete", link_path(link), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"
-
-.related.social-list
-	= link_to "https://www.facebook.com/eye.dealer", target: '_blank' do
-		%span.menu-icon.fa.fa-fw.fa-facebook
-	= link_to "https://twitter.com/eyedealer", target: '_blank' do
-		%span.menu-icon.fa.fa-fw.fa-twitter
-	= link_to "https://www.instagram.com/eye.dealist", target: '_blank' do
-		%span.menu-icon.fa.fa-fw.fa-instagram
